@@ -1,0 +1,155 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.25;
+}
+h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading{
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2rem;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+.navbar{
+  padding:2.5rem 0 4.5rem 0;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 0 3%;
+}
+/* title image */
+.title-img{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 30%
+}
+/* features */
+
+.features{
+  text-align: center;
+  padding:5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.feature-img{
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+.feature-img:hover{
+  color: #ff4c68;
+}
+
+#features{
+  background-color: #fff;
+  padding: 8% 15%;
+  position: relative;
+}
+/* testimonial */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 8% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+.price{
+  padding: 3% 2%;
+}
+#pricing{
+  text-align: center;
+  padding: 8% 15%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    width: 60%;
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 5rem;
+  }
+}
+
+/* call to action */
+#cta{
+  padding: 8% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.cta{
+    font-size: 2rem;
+}
+#footer{
+    padding: 6% 15%;
+    line-height: 3rem;
+  text-align: center;
+}
+.footer-link{
+  color: #000;
+}
+.footer-link:hover{
+  color: #8f8f8f;
+}
+.social-icon{
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
